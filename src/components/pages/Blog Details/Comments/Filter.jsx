@@ -22,7 +22,6 @@ function Filter({ allComments, filter, setFilter }) {
                     </select>
                 </div>
 
-
                 <div className='flex items-center gap-2'>
                     <p className='text-black dark:text-gray-400 text-md'>Sort by</p>
                     <select value={filter.sortBy} onChange={(e) => setFilter({ ...filter, sortBy: e.target.value })} className="bg-white border px-4 border-zinc-300 text-sm block w-[100px] py-2 dark:bg-zinc-900 dark:border-zinc-700 dark:placeholder-teal-500 text-gray-500 dark:text-gray-400">

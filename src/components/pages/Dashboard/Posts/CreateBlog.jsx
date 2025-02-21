@@ -50,8 +50,6 @@ export default function CreateBlog() {
     }
   }, [showBlog, isCreate]);
 
-  console.log(blog)
-
   const resetForm = () => {
     setBlog({
       title: "",
